@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recipes",
+  "info": {
+    "name": "Recipe",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "recipe_id": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sourceUrl": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "servings": {
+      "type": "string"
+    },
+    "readyInMinutes": {
+      "type": "string"
+    }
+  }
+}
